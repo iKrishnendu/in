@@ -18,7 +18,7 @@ body{
 }
 
 .main{
-  margin-left: 3.5rem;
+  padding-left: 3.5rem;
   /* padding-right: -20rem; */
 }
 .btn{
@@ -30,10 +30,10 @@ body{
 
 
  
-.main{
+/* .main{ */
     /* background-color: yellow; */
-    width: 90vw;
-}
+    /* width: 90vw;
+} */
 
 .container{
     display: flex;
@@ -308,7 +308,7 @@ cursor: pointer;
     .column1 {
       width: 100%;
       display: block;
-      margin-bottom: 20px;
+      margin-bottom: 10px;
     }
   }
   
@@ -325,7 +325,7 @@ cursor: pointer;
 /* left side card */
 
 .hb{
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-left: 4rem;
   margin-right: 4rem;
 }
@@ -482,20 +482,16 @@ footer p:nth-child(2){
 
   /* media -------------------------------------------------------------*/
 
-  
-
-
+ 
 
 
   @media (max-width:1148px) {
     .social{
-      margin-left: -2px
-
+      margin-left: -1px;
 
   }
   }
 
-  
   @media (max-width:769px) {
     
   
@@ -510,7 +506,7 @@ footer p:nth-child(2){
       margin-left: 2rem;
     }
     .devPic img{
-	margin-top: 4rem;
+      margin-top: 4rem;
       height: 30vh;
     }
   
@@ -580,7 +576,6 @@ footer p:nth-child(2){
 
 
 
-
   @media (max-width:456px) {
     .infocontainer{
       margin-left: -1rem;
@@ -595,6 +590,15 @@ footer p:nth-child(2){
       margin-right: 1rem;
     }
 
+    .social{
+      margin-left: -2rem ;
+      margin-right: -2rem;
+
+      border-radius: 100%;
+    }
+
+    
+
   }
 
 
@@ -606,15 +610,7 @@ footer p:nth-child(2){
     }
     .devPic img {
       height: 30vh;
-    
-	    
-	    
-.main{
-    overflow: hidden;
- 
-  
-  }
- 
+     
   
       
       
@@ -639,12 +635,47 @@ footer p:nth-child(2){
   .moreabout{
       font-size: 1.2rem;
   }
-  .main{
-	 overflow: hidden;
- 
   
-  }
+  /* .social{
+    margin-right;: 2rem
+
+}
+   */
 
 
+}
+
   
+@media (max-width:597px) {
+  .social{
+    margin-left: 4rem;
+    /* margin-right: 1px; */
+
+}
       
+}
+
+@media (max-width:540px) {
+  .social{
+    margin-right: 4rem;
+
+}
+}
+
+@media (max-width:440px) {
+  .social{
+    border-radius: 50%;
+    margin-left: 2rem;
+    margin-right: -3rem;
+    
+}
+}
+
+@media (max-width:364px) {
+  .social{
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    
+}
+}
