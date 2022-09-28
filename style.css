@@ -482,39 +482,7 @@ footer p:nth-child(2){
 
   /* media -------------------------------------------------------------*/
 
-  @media (max-width:768px) {
-
-
-    body{
-      /* background-color: red; */
-      /* margin-left: 2rem; */
-      margin-top: 10rem;
-    }
   
-    .infocontainer{
-      flex-direction: column;
-      margin-left: 4rem;
-    }
-    .devPic{
-      margin-top: 3rem;
-      margin-bottom: 2rem;
-      text-align: center;
-      margin-left: 2rem;
-    }
-	  .devPic img{
-      height: 30vh;
-    }
-  
-    .box{
-      flex-direction: column;
-    }
-  }
-
-  .card {
-   
-    height: 80vh;
-  }
-
 
 
 
@@ -527,7 +495,34 @@ footer p:nth-child(2){
   }
   }
 
+  
   @media (max-width:769px) {
+    
+  
+    .infocontainer{
+      flex-direction: column;
+      margin-left: 4rem;
+    }
+    .devPic{
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      text-align: center;
+      margin-left: 2rem;
+    }
+    .devPic img{
+      height: 30vh;
+    }
+  
+    .box{
+      flex-direction: column;
+    }
+
+
+
+
+
+
+
     .infocontainer{
       margin-top: 300px;
     }
@@ -546,7 +541,42 @@ footer p:nth-child(2){
     }
 
 
+
+
+
+
+
+
+
+    
+  .hello{
+    font-size: 2.9rem;
+
+}
+.name{
+    font-size: 2.9rem;
+    font-weight: bold;
+  
+
+}
+.about{
+    font-size: 1rem;
+  
+}
+
+.moreabout{
+    font-size: 1.2rem;
+}
+.resume{
+  font-size: 0.5rem;
+}
+.buttons{
+  font-size: 0.8rem;
+  height: 1rem;
+}
+
   }
+
 
 
 
