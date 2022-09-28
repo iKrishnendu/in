@@ -501,6 +501,9 @@ footer p:nth-child(2){
       text-align: center;
       margin-left: 2rem;
     }
+	  .devPic img{
+      height: 30vh;
+    }
   
     .box{
       flex-direction: column;
