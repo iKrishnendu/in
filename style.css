@@ -606,7 +606,15 @@ footer p:nth-child(2){
     }
     .devPic img {
       height: 30vh;
-     
+    
+	    
+	    
+.main{
+    overflow: hidden;
+ 
+  
+  }
+ 
   
       
       
@@ -631,7 +639,9 @@ footer p:nth-child(2){
   .moreabout{
       font-size: 1.2rem;
   }
-  
+  .main{
+	 overflow: hidden;
+ 
   
   }
 
