@@ -510,6 +510,7 @@ footer p:nth-child(2){
       margin-left: 2rem;
     }
     .devPic img{
+	margin-top: 4rem;
       height: 30vh;
     }
   
