@@ -108,15 +108,7 @@ body{
     color: white;
     cursor: pointer;
 }
-.buttons .resume :hover{
-	background-color: transparent;
-	border: 2px solid #f9004d;
-	cursor: pointer;
-    transform: scale(1.3);
-	transition: .3s;
 
-
-}
 .buttons .resume a:hover{
 	background-color: transparent;
 	border: 2px solid #f9004d;
@@ -124,6 +116,10 @@ body{
     transform: scale(1.1);
 	transition: .3s;
 
+}
+
+.buttons .resume a{
+	color: white;
 }
 
 
