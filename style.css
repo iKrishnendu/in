@@ -715,6 +715,14 @@ footer p:nth-child(2){
     margin-right: -3rem;
     
 }
+	.card {
+  height: 53vh;
+}
+
+.card1{
+  height: 80vh;
+}
+	
 }
 
 @media (max-width:364px) {
