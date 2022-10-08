@@ -697,6 +697,9 @@ footer p:nth-child(2){
   margin-top: -1rem;
 }
 
+	.card{
+  height: 48vh;
+}
 
       
 }
